@@ -1,13 +1,7 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
 
-// https://vitejs.dev/config/
+// Конфиг Vite для GitHub Pages
 export default defineConfig({
-  plugins: [react()],
-  // ⚠️ ВАЖНО: Укажите base как имя вашего репозитория
-  base: '/Travelenglishfigma/', // <- Замените на имя вашего репозитория
-<<<<<<< HEAD
-})
-=======
-})
->>>>>>> f8c77299338d7d667e4064557cc852d3a02cced9
+// root можно не указывать, по умолчанию '.'
+base: '/Travelenglishfigma/', // ВАЖНО: имя репозитория c учётом регистра
+});
